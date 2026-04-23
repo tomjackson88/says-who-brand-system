@@ -7,7 +7,7 @@ Visual system extracted from the official Says Who? Brand Kit (May 2024).
 - **Name**: Says Who?
 - **Format**: Podcast
 - **Host**: Brogan
-- **Tagline**: *Intentional Living. Timeless Design.*
+- **Tagline**: *Who says it should be this way?*
 
 ## Origin
 
