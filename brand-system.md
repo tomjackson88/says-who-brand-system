@@ -78,17 +78,34 @@ We believe that beauty lives in the details, and that thoughtful questions creat
 - Body — Suisse Int'l Regular
 - Micro / Labels — Suisse Int'l Regular, uppercase, tracked +0.08–0.12em
 
-**Scale**
+### Free Substitutes (Google Fonts)
 
-| Role | Size / Line-height | Font |
+When Canela or Suisse Int'l licenses are unavailable (web prototypes, decks, third-party tools), use these drop-in replacements:
+
+| Brand Font | Free Substitute | Notes |
 |---|---|---|
-| Display | 64 / 1.1 | Canela Regular |
-| H1 | 48 / 1.15 | Canela Regular |
-| H2 | 32 / 1.2 | Canela Regular |
-| Quote | 24 / 1.4 | Canela Italic |
-| Subhead | 18 / 1.4 | Suisse Int'l Medium |
-| Body | 16 / 1.6 | Suisse Int'l Regular |
-| Label | 12 / 1.3 | Suisse Int'l Regular, uppercase, +0.12em |
+| **Canela** | **Fraunces** | Variable font — set `opsz` high (144), `soft` ~50, `wght` 400 for closest match. Has the ball terminals and display flare. |
+| **Suisse Int'l** | **Inter** | Industry-standard neo-grotesque. Near-identical rhythm and x-height. Use `tracking: -0.01em` on body. |
+| *(alt to Suisse)* | **IBM Plex Sans** | Slightly warmer, subtle humanist touches — closer to Suisse's character if Inter feels too neutral. |
+
+### Scale
+
+| Role | Size / Line-height | Brand Font | Free Substitute |
+|---|---|---|---|
+| Display | 64 / 1.1 | Canela Regular | Fraunces 400, opsz 144 |
+| H1 | 48 / 1.15 | Canela Regular | Fraunces 400, opsz 144 |
+| H2 | 32 / 1.2 | Canela Regular | Fraunces 400, opsz 96 |
+| Quote | 24 / 1.4 | Canela Italic | Fraunces Italic 400 |
+| Subhead | 18 / 1.4 | Suisse Int'l Medium | Inter 500 |
+| Body | 16 / 1.6 | Suisse Int'l Regular | Inter 400 |
+| Label | 12 / 1.3 | Suisse Int'l Regular, uppercase, +0.12em | Inter 500, uppercase, +0.12em |
+
+**Web loading (free stack)**
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,400..700,0..100;1,9..144,400..700,0..100&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+```
 
 ---
 
