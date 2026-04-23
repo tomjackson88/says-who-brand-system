@@ -8,6 +8,11 @@ Brand system for **Says Who?**, the podcast hosted by Brogan.
 ## Contents
 
 - [`brand-system.md`](./brand-system.md) — Full brand system: origin, voice, colors, typography, logo, spacing, iconography, art direction, motion, voice examples, and anti-patterns.
+- [`logos/`](./logos) — Official logo assets (SVG)
+  - `logo-master.svg` — Primary wordmark lockup
+  - `monogram.svg` — SW? monogram
+  - `stacked.svg` — Stacked wordmark
+  - `stacked-circle.svg` — Stacked lockup inside circle submark
 
 ## Usage
 

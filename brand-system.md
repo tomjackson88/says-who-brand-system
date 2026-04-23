@@ -94,12 +94,21 @@ We believe that beauty lives in the details, and that thoughtful questions creat
 
 ## Logo
 
-- **Primary logo**: "Says Who?" wordmark in Canela
-- **Secondary logo**: "SAYS WHO?" in Suisse Int'l, uppercase, tracked
-- **Logo mark**: "SW?" lockup in a square (dark-on-light or reversed)
-- **Submark**: "SW?" inside a thin circle
+Official assets live in [`/logos`](./logos).
 
-**Rule**: Always ensure legibility and contrast across applications.
+| Asset | File | Use |
+|---|---|---|
+| Primary wordmark | [`logo-master.svg`](./logos/logo-master.svg) | Main brand lockup — episode art, site header, hero placements |
+| Stacked wordmark | [`stacked.svg`](./logos/stacked.svg) | Square/portrait placements, social avatars, merch |
+| Stacked + circle | [`stacked-circle.svg`](./logos/stacked-circle.svg) | Seal / stamp treatments, footers, sign-offs |
+| Monogram | [`monogram.svg`](./logos/monogram.svg) | Favicon, app icon, watermark, small-scale applications |
+
+**Rules**
+- Always ensure legibility and contrast across applications
+- Maintain clear space equal to the cap-height of the wordmark on all sides
+- Never recolor outside the brand palette (Rich Plum / Merlot / Chalk / Warm Sand)
+- Never stretch, skew, rotate, or add effects (shadow, outline, gradient)
+- Monogram is the only mark permitted below 32px
 
 ---
 
